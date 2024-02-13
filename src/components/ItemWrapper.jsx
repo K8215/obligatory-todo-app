@@ -7,13 +7,13 @@ export default function ItemWrapper() {
 
 	const handleValueChange = (e) => {
 		setInputValue(e.target.value);
-		console.log(inputValue);
+		//console.log(inputValue);
 	};
 
 	const handleButtonPress = () => {
 		setItems((prevItems) => [...prevItems, inputValue]);
 		setInputValue("");
-		console.log(items);
+		//console.log(items);
 	};
 
 	const handleDelete = (index) => {

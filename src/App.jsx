@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
 	return (
 		<main>
-			<h1>Obligatory To Do App</h1>
+			<h1>Obligatory To-Do App</h1>
 			<ItemWrapper />
 		</main>
 	);
